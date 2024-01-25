@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #3C40C6;
+}
+div.leftside{
+    width: 3%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E9ECF1;
+    position: fixed;
+    z-index: 1;
+}
+div.leftside i{
+    color: gray;
+    font-size: 30px;
+    margin: 5px;
+}
+div.rightside{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15% 0px 18%;
+}
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+header div.logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+header div.logo h2{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+header div.navbar{
+    width: 50%;
+    height: 100%;
+}
+div.navbar ul{
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0px;
+}
+div.navbar ul li a:first-child{
+    margin: 10px 20px;
+}
+div.navbar ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 2px;
+    transition: border-bottom 0.5s ease;
+}
+div.navbar ul li a:hover{
+    border-bottom: 2px solid white;
+}
+div.navbar ul li a span{
+    background-color: red;
+    padding: 3px 5px;
+    font-size: small;
+    border-radius: 5px;
+}
+div.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+}
+div.box{
+    width: 30%;
+    margin: 40px 0px;
+    border: 10px solid white;
+    border-radius: 5px;
+    background-color: white;
+    transition: transform 0.5s ease; 
+}
+div.box:hover{
+    transform: scale(1, 1.1);
+}
+div.box a img{
+    height: 150px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+div.box a{
+    margin: 0px;
+    padding: 0px;
+}
+.bigbox{
+    border: none!important;
+}
+.bigbox img{
+    width: 100%;
+    height: 100%!important;
+}
+div.box a p:last-child{
+    float: right;
+    padding-right: 10px;
+}
+div.box a p{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 0px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    align-self: center;
+    line-height: 30px;
+}
+
+div.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #0C2461;
+    height: 50px;
+    align-items: center;
+    border-radius: 5px;
+}
+div.row a{
+    color: white;
+    font-weight: bold;
+}
+div.row a span{
+    font-size: 12px;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 20px;
+    background-color: #1B95E0;
+}
+div.heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+div.heading h2{
+    display: inline-block;
+    color: white!important;
+}
+div.heading a{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+div.heading a:hover{
+    transition: 0.5s;
+    transform: scale(1, 0.8);
+}
+div.footer{
+    display: flex;
+    flex-direction: column;
+}
+div.tools{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 25px 0px;
+}
+div.tools div.image{
+    width: 30%;
+}
+div.tools div.image img{
+    width: 100%;
+}
+div.tools div.content{
+    width: 70%;
+    height: 100%;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between!important;
+}
+div.tools div.content h2, p, a{
+    color: white;
+    margin: 0px;
+}
+div.tools div.content p{
+    line-height: 25px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(12, 36, 97, 0.95);
+    padding: 25px 18%;
+    margin-top: 50px;
+}
+footer h3{
+    color: white;
+}
+footer ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+footer div.twolist{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+footer div.twolist div.left, footer div.twolist div.right{
+    width: 50%;
+} 
+footer div.twolist li{
+    margin: 10px 0px;
+}
+footer div.onelist p{
+    margin: 10px 0px;
+}
+footer div.onelist a{
+    text-decoration: underline;
+}
