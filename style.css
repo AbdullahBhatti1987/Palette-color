@@ -179,7 +179,6 @@ div.footer{
 div.tools{
     display: flex;
     flex-direction: row;
-    align-items: center;
     margin: 25px 0px;
 }
 div.tools div.image{
@@ -189,12 +188,12 @@ div.tools div.image img{
     width: 100%;
 }
 div.tools div.content{
-    width: 70%;
-    height: 100%;
-    padding: 0px 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between!important;
+    width: 70%;
+    padding: 0px 30px;
+
 }
 div.tools div.content h2, p, a{
     color: white;
@@ -234,4 +233,167 @@ footer div.onelist p{
 }
 footer div.onelist a{
     text-decoration: underline;
+}
+
+
+/* ----------------Inner-htmls--------------- */
+
+div.inner_header{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+div.inner_header a{
+    margin-left: 90px;
+    color: black;
+    font-weight: bold;
+}
+div.inner_header select{
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+} 
+div.inner_header span{
+    margin-right: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+div.all{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+div.all div.color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%!important;
+    height: 25%!important;
+    transition: all 1s ease;
+    
+}
+
+div.all div.color span{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s ease;
+    padding: 10px 20px;
+    font-size: xx-large;
+}
+div.all div.color:hover span{
+    display: flex;
+    border: 1px solid white;
+    color: white;
+}
+div.all div.color span:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bgc1-1{
+    background-color: #1abc9c;
+}
+.bgc1-2{
+    background-color: #2ecc71;
+}
+.bgc1-3{
+    background-color: #3498db;
+}
+.bgc1-4{
+    background-color: #9b59b6;
+}
+.bgc1-4{
+    background-color: #34495e;
+}
+.bgc1-5{
+    background-color: #16a085;
+}
+.bgc1-6{
+    background-color: #27ae60;
+}
+.bgc1-7{
+    background-color: #1abc9c;
+}
+.bgc1-8{
+    background-color: #2980b9;
+}
+.bgc1-9{
+    background-color: #8e44ad;
+}
+.bgc1-10{
+    background-color: #2c3e50;
+}
+.bgc1-11{
+    background-color: #f1c40f;
+}
+.bgc1-12{
+    background-color: #e67e22;
+}
+.bgc1-13{
+    background-color: #e74c3c;
+}
+.bgc1-14{
+    background-color: #ecf0f1;
+}
+.bgc1-15{
+    background-color: #95a5a6;
+}
+.bgc1-16{
+    background-color: #f39c12;
+}
+.bgc1-17{
+    background-color: #d35400;
+}
+.bgc1-18{
+    background-color: #c0392b;
+}
+.bgc1-19{
+    background-color: #bdc3c7;
+}
+.bgc1-20{
+    background-color: #7f8c8d;
 }
